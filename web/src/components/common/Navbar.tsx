@@ -58,7 +58,7 @@ const Navbar = () => {
     setOpen(false);
   };
   return (
-    <div className="navbar bg-base-100 shadow-sm flex justify-between px-4">
+    <div className="navbar bg-base-100 shadow-sm flex justify-between px-5 lg:px-16">
       <Link to={"/"} className=" text-xl flex gap-1.5 items-center">
         <img src={logo} alt="Logo" className="w-10 h-10 rounded-full mr-2" />
         <span className="hidden md:inline">ShortBook</span>
