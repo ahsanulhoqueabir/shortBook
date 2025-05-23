@@ -1,29 +1,40 @@
 import { useEffect, useState } from "react";
-import useAxiosPublic from "../hooks/axios/UseAxiosPublic";
 import LoadingPage from "./LoadingPage";
 import Post from "../components/home/Post";
-import Loader from "../components/common/Loader";
-
+import { collection, query, orderBy, getDocs } from "firebase/firestore";
+import { db } from "../firebase/firebase.config";
 const Home = () => {
   const [loading, setLoading] = useState<boolean>(true);
-  const [reloading, setReloading] = useState<boolean>(true);
   const [posts, setPosts] = useState<
     Array<{
+      id: string;
       description: string;
-      courseTitle: string;
+      courseID: string;
+      createdAt: string;
+      semester: string;
     }>
   >([]);
-  const [page, setPage] = useState<number>(1);
-  // const [toatlNews, setTotalNews] = useState<boolean>(null);
-  const axiosPublic = useAxiosPublic();
   useEffect(() => {
-    setReloading(true);
-    axiosPublic.get(`/post/get?page=${page}`).then((res) => {
-      setPosts((prev) => [...prev, ...res.data]);
+    const fetchAllPosts = async () => {
+      const postsRef = collection(db, "posts");
+      const allPostsQuery = query(postsRef, orderBy("createdAt", "desc"));
+      const allPostsSnapshot = await getDocs(allPostsQuery);
+      const allPosts = allPostsSnapshot.docs.map((doc) => {
+        const data = doc.data();
+        return {
+          id: doc.id,
+          description: data.description ?? "",
+          courseID: data.courseID ?? "",
+          createdAt: data.createdAt ?? "",
+          semester: data.semester ?? "",
+        };
+      });
+      setPosts(allPosts);
       setLoading(false);
-      setReloading(false);
-    });
-  }, [axiosPublic, page]);
+    };
+    fetchAllPosts();
+  }, []);
+
   if (loading) {
     return <LoadingPage />;
   }
@@ -31,10 +42,9 @@ const Home = () => {
     <div>
       <div className="py-10 px-5 lg:px-10 grid lg:grid-cols-3 mx-auto gap-4 lg:w-4/5">
         {posts?.map((post, ind) => (
-          <Post page={page} setPage={setPage} key={ind} post={post} />
+          <Post key={ind} post={post} />
         ))}
       </div>
-      {reloading ? <Loader /> : null}
     </div>
   );
 };

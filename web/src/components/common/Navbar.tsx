@@ -21,8 +21,9 @@ import { Textarea } from "../ui/textarea";
 import courses from "../../assets/data/courses.json";
 import { Label } from "../ui/label";
 import { useState } from "react";
-import axios from "axios";
 import { toast } from "sonner";
+import { addDoc, collection } from "firebase/firestore";
+import { db } from "../../firebase/firebase.config";
 
 const Navbar = () => {
   const [course, setCourse] = useState<string>("");
@@ -30,7 +31,7 @@ const Navbar = () => {
   const [loading, setLoading] = useState<boolean>(false);
   const [open, setOpen] = useState<boolean>(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!course || !description) {
       alert("Please fill in all fields");
@@ -39,22 +40,22 @@ const Navbar = () => {
     const data = {
       courseID: course,
       description: description,
+      semester: "S22",
+      createdAt: new Date(),
     };
     setLoading(true);
-    axios
-      .post(`${import.meta.env.VITE_APIKEY_ENDPOINT}/post/new`, data)
+    await addDoc(collection(db, "posts"), data)
       .then(() => {
-        setCourse("");
-        setDescription("");
-        toast.success("Note has been created.");
         setLoading(false);
         setOpen(false);
+        toast.success("Post created successfully");
       })
       .catch(() => {
-        toast.error("Error creating note. Please try again.");
         setLoading(false);
         setOpen(false);
+        toast.error("Error creating post");
       });
+    setOpen(false);
   };
   return (
     <div className="navbar bg-base-100 shadow-sm flex justify-between px-4">
@@ -90,7 +91,10 @@ const Navbar = () => {
                       CourseCode: string;
                       CourseTitle: string;
                     }) => (
-                      <SelectItem key={course.CourseCode} value={course.id}>
+                      <SelectItem
+                        key={course.CourseCode}
+                        value={course.CourseTitle}
+                      >
                         {course.CourseTitle}
                       </SelectItem>
                     )
