@@ -1,14 +1,15 @@
-const cors = require("cors");
-const jwt = require("jsonwebtoken");
-const express = require("express");
-const serverless = require("serverless-http");
-const mongoose = require("mongoose");
-const port = process.env.port || 5000;
-const dotenv = require("dotenv");
-dotenv.config();
-const jwtRoute = require("../route/middleware.js");
+import cors from "cors";
+import jwt from "jsonwebtoken";
+import express from "express";
+import serverless from "serverless-http";
+import mongoose from "mongoose";
+import dotenv from "dotenv";
+import jwtRoute from "../route/middleware.js";
 import courseRoute from "../route/courseR.js";
 import postRoute from "../route/postR.js";
+
+const port = process.env.port || 5000;
+dotenv.config();
 
 const app = express();
 const corsOptions = { origin: true, Credential: true };
@@ -40,8 +41,8 @@ router.post("/jwt", (req, res) => {
   res.send({ token });
 });
 app.use("/.netlify/functions/api/v1", router);
-app.use("/.netlify/functions/api/v1/verify", jwtRoute);
+// app.use("/.netlify/functions/api/v1/verify", jwtRoute);
 app.use("/.netlify/functions/api/v1/course", courseRoute);
 app.use("/.netlify/functions/api/v1/post", postRoute);
 
-module.exports.handler = serverless(app);
+export const handler = serverless(app);

@@ -9,36 +9,45 @@ import postRoute from "./route/postR.js";
 
 dotenv.config();
 
-const port = process.env.port || 5000;
 const app = express();
-const corsOptions = { origin: true, Credential: true };
 
-const router = express.Router();
+// ✅ Corrected CORS option
+const corsOptions = { origin: true, credentials: true };
+app.use(cors(corsOptions));
+app.use(express.json());
 
-router.get("/", (req, res) => {
+// ✅ MongoDB connection caching for serverless
+let isConnected = false;
+const dburi = process.env.MONGODB_URI;
+
+const connectDB = async () => {
+  if (isConnected) return;
+  try {
+    await mongoose.connect(dburi, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
+    isConnected = true;
+    console.log("MongoDB connected");
+  } catch (error) {
+    console.error("MongoDB connection error:", error);
+  }
+};
+
+// ✅ Call DB connection before requests
+app.use(async (req, res, next) => {
+  await connectDB();
+  next();
+});
+
+// ✅ Set up routes
+app.get("/api/v1", (req, res) => {
   res.send("Welcome to my server");
 });
 
-const dburi = process.env.MONGODB_URI;
-
-const connection = async () => {
-  try {
-    await mongoose.connect(dburi);
-    console.log("connected");
-  } catch (err) {
-    console.log("Error: ", err);
-  }
-};
-app.use(express.json());
-app.use(cors(corsOptions));
-
-app.use("/api/v1", router);
 app.use("/api/v1/verify", jwtRoute);
 app.use("/api/v1/course", courseRoute);
 app.use("/api/v1/post", postRoute);
 
-app.listen(port, () => {
-  connection();
-  console.log(`Server is running at ${port}`);
-});
-export const handler = serverless(app);
+// ✅ Remove app.listen — use serverless
+export default serverless(app); // ✅ for Vercel `/api/index.js`

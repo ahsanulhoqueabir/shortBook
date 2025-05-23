@@ -1,5 +1,5 @@
 import jwt from "jsonwebtoken";
-import users from "../model/user.js";
+import users from "../model/userM.js";
 
 //  Middlewares
 const verifyJWT = (req, res, next) => {
