@@ -1,0 +1,43 @@
+import { useEffect } from "react";
+
+interface PostProps {
+  page: number;
+  setPage: (page: number) => void;
+  post: {
+    description: string;
+    courseTitle: string;
+  };
+}
+
+const Post: React.FC<PostProps> = ({ page, setPage, post }) => {
+  useEffect(() => {
+    const lastpost = document.querySelector(".post-card:last-child");
+
+    const observer = new IntersectionObserver((para) => {
+      if (para[0].isIntersecting && lastpost) {
+        observer.unobserve(lastpost);
+        setPage(page + 1);
+      }
+    });
+
+    if (lastpost) {
+      observer.observe(lastpost);
+    }
+  }, [post, page, setPage]);
+  return (
+    <div className="relative post-card h-full w-full  rounded-lg shadow-lg border-[1px] shadow-gray-200 overflow-hidden p-2 ">
+      <div className="lg:flex gap-3 items-center justify-between">
+        <div className="grid justify-between items-stretch  w-full gap-7">
+          <div className="h-full">
+            <h1 className="textarea-md ">{post.description}</h1>
+            <p className="text-xs text-gray-500 pb-2">
+              <span className="text-xs">{post.courseTitle} </span>{" "}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Post;

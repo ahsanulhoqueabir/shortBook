@@ -1,0 +1,1565 @@
+[{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d64f"
+  },
+  "CourseCode": "CSER-1105",
+  "CourseTitle": "Physics",
+  "CourseType": "Non-Major",
+  "Marks": 100,
+  "Credit": 3,
+  "semester": "S11",
+  "code": "CC1105",
+  "courseTeacher": "Dr. Abdulla Al-Momin",
+  "instructor": {
+    "B210305": {
+      "batch": "B210305",
+      "teacher": "66c089c4e73202767fddea99"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d655"
+  },
+  "CourseCode": "CSEL-1202",
+  "CourseTitle": "Object Oriented Programming I Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC1202",
+  "semester": "S12",
+  "courseTeacher": "Dr. Md. Aminul Islam",
+  "instructor": {
+    "B220305": {
+      "batch": "B220305",
+      "teacher": "66bd70aac003c74f5c27e297"
+    },
+    "B210305": {
+      "batch": "B210305",
+      "teacher": "66bd70aac003c74f5c27e29f"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d64d"
+  },
+  "CourseCode": "CSEL-1103",
+  "CourseTitle": "Structured Programming Language Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "semester": "S11",
+  "code": "CC1103",
+  "courseTeacher": "Dr. Md. Zulfiker Mahmud"
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d65c"
+  },
+  "CourseCode": "CSER-1209",
+  "CourseTitle": "Economics",
+  "CourseType": "Non-Major",
+  "Marks": 50,
+  "Credit": 2,
+  "code": "CC1211",
+  "semester": "S12",
+  "courseTeacher": "Md Rabiul Karim",
+  "instructor": {
+    "B210305": {
+      "batch": "B210305",
+      "teacher": "66c0baaae73202767fddeaa7"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d659"
+  },
+  "CourseCode": "CSEL-1206",
+  "CourseTitle": "Basic Electronics Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC1206",
+  "semester": "S12",
+  "courseTeacher": "Dr. Uzzal Kumar Acharjee",
+  "instructor": {
+    "B220305": {
+      "batch": "B220305",
+      "teacher": "66bd70aac003c74f5c27e294"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d65a"
+  },
+  "CourseCode": "CSER-1207",
+  "CourseTitle": "Math II (Linear Algebra)",
+  "CourseType": "Non-Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC1207",
+  "semester": "S12",
+  "courseTeacher": "Dr. Farhana Rashid",
+  "instructor": {
+    "B220305": {
+      "batch": "B220305",
+      "teacher": "66c0b5a9e73202767fddeaa5"
+    },
+    "B210305": {
+      "batch": "B210305",
+      "teacher": "66c0b4c4e73202767fddeaa3"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d661"
+  },
+  "CourseCode": "CSE-2101",
+  "CourseTitle": "Object Oriented Programming II",
+  "CourseType": "Major",
+  "courseTeacher": "Dr. Sajeeb Saha",
+  "Marks": 50,
+  "Credit": 2,
+  "semester": "S21",
+  "code": "CC2101",
+  "instructor": {
+    "B210305": {
+      "batch": "B210305",
+      "teacher": "66bd70aac003c74f5c27e29c"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bd6"
+  },
+  "CourseCode": "CSEL-2209",
+  "CourseTitle": "Design and Analysis of Algorithm Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC2209",
+  "semester": "S22"
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69be6"
+  },
+  "CourseCode": "CSEL-3207",
+  "CourseTitle": "Software Engineering Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC3207",
+  "semester": "S32"
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69be8"
+  },
+  "CourseCode": "CSEL-3209",
+  "CourseTitle": "IoT and Embedded System Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC3209",
+  "semester": "S32"
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d656"
+  },
+  "CourseCode": "CSE-1203",
+  "CourseTitle": "Data structure",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC1203",
+  "semester": "S12",
+  "courseTeacher": "Arnisha Akhter",
+  "instructor": {
+    "B220305": {
+      "batch": "B220305",
+      "teacher": "66bd70aac003c74f5c27e29f"
+    },
+    "B210305": {
+      "batch": "B210305",
+      "teacher": "66bd70aac003c74f5c27e2a8"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d666"
+  },
+  "CourseCode": "CSE-2106",
+  "CourseTitle": "Introduction to Statistic and Probability",
+  "CourseType": "Non-Major",
+  "courseTeacher": "Shahnaz Parvin",
+  "Marks": 100,
+  "Credit": 3,
+  "semester": "S21",
+  "code": "CC2106",
+  "instructor": {
+    "B210305": {
+      "batch": "B210305",
+      "teacher": "66c17f8f90ff35b2a9a65915"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bd2"
+  },
+  "CourseCode": "CSER-2205",
+  "CourseTitle": "Math-IV",
+  "CourseType": "Non-Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC2205",
+  "semester": "S22"
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bd5"
+  },
+  "CourseCode": "CSE-2208",
+  "CourseTitle": "Design and Analysis of Algorithm",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC2208",
+  "semester": "S22"
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bdd"
+  },
+  "CourseCode": "CSEL-3106",
+  "CourseTitle": "Microprocessor and Assembly Language Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC3106",
+  "semester": "S31",
+  "instructor": {
+    "B200305": {
+      "batch": "B200305",
+      "teacher": "66bd70aac003c74f5c27e295"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bdf"
+  },
+  "CourseCode": "CSEL-3108",
+  "CourseTitle": "Computer Networks Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC3108",
+  "semester": "S31",
+  "instructor": {
+    "B200305": {
+      "batch": "B200305",
+      "teacher": "66bd70aac003c74f5c27e29c"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69be5"
+  },
+  "CourseCode": "CSE-3206",
+  "CourseTitle": "Software Engineering",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC3206",
+  "semester": "S32"
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bea"
+  },
+  "CourseCode": "CSEV-3211",
+  "CourseTitle": "Viva-Voce",
+  "CourseType": " ",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC3211",
+  "semester": "S32"
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bed"
+  },
+  "CourseCode": "CSE-4103",
+  "CourseTitle": "Digital Image Processing",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC4103",
+  "semester": "S41",
+  "instructor": {
+    "B190305": {
+      "batch": "B190305",
+      "teacher": "66bd70aac003c74f5c27e298"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d658"
+  },
+  "CourseCode": "CSE-1205",
+  "CourseTitle": "Basic Electronics",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC1205",
+  "semester": "S12",
+  "courseTeacher": "Dr. Uzzal Kumar Acharjee",
+  "instructor": {
+    "B220305": {
+      "batch": "B220305",
+      "teacher": "66bd70aac003c74f5c27e294"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d662"
+  },
+  "CourseCode": "CSER-2105",
+  "CourseTitle": "Math III (Ordinary differential Equation)",
+  "CourseType": "Non-Major",
+  "courseTeacher": "Md. Ashraful Islam",
+  "Marks": 100,
+  "Credit": 3,
+  "semester": "S21",
+  "code": "CC2105",
+  "instructor": {
+    "B210305": {
+      "batch": "B210305",
+      "teacher": "66c0b254e73202767fddea9f"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bcf"
+  },
+  "CourseCode": "CSE-2202",
+  "CourseTitle": "Computer Architecture Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC2202",
+  "semester": "S22"
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bd3"
+  },
+  "CourseCode": "CSER-2206",
+  "CourseTitle": "Numerical Analysis",
+  "CourseType": "Non-Major",
+  "Marks": 50,
+  "Credit": 2,
+  "code": "CC2206",
+  "semester": "S22"
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bd4"
+  },
+  "CourseCode": "CSEL-2207",
+  "CourseTitle": "Numerical Analysis Lab ",
+  "CourseType": "Non-Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC2207",
+  "semester": "S22"
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69be0"
+  },
+  "CourseCode": "CSEP-3109",
+  "CourseTitle": "Internet and Web Programming (Project)",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC3109",
+  "semester": "S31",
+  "instructor": {
+    "B200305": {
+      "batch": "B200305",
+      "teacher": "66bd70aac003c74f5c27e297"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69be3"
+  },
+  "CourseCode": "CSE-3203",
+  "CourseTitle": "High level Programming Language ",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC3203",
+  "semester": "S32"
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bf0"
+  },
+  "CourseCode": "CSEL-4106",
+  "CourseTitle": "Computer Graphics and Animation Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC4106",
+  "semester": "S41",
+  "instructor": {
+    "B190305": {
+      "batch": "B190305",
+      "teacher": "66bd70aac003c74f5c27e2a8"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d660"
+  },
+  "CourseCode": "CSE-2103",
+  "CourseTitle": "Digital Logic Design",
+  "CourseType": "Major",
+  "courseTeacher": "Prof. Dr. Md. Nasir Uddin",
+  "Marks": 100,
+  "Credit": 3,
+  "semester": "S21",
+  "code": "CC2103",
+  "instructor": {
+    "B210305": {
+      "batch": "B210305",
+      "teacher": "66bd70aac003c74f5c27e295"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6634e2fe0520507ea6c9717a"
+  },
+  "CourseCode": "CSE-0001",
+  "CourseTitle": "Not Available",
+  "CourseType": "Other",
+  "Marks": 0,
+  "Credit": 0,
+  "code": "CC0001",
+  "semester": "S00",
+  "courseTeacher": "Not Available",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bd0"
+  },
+  "CourseCode": "CSE-2203",
+  "CourseTitle": "Database Management System",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC2203",
+  "semester": "S22"
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bd1"
+  },
+  "CourseCode": "CSEL-2204",
+  "CourseTitle": "Database Management System Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC2204",
+  "semester": "S22"
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bd7"
+  },
+  "CourseCode": "CSEV-2210",
+  "CourseTitle": "Viva-Voce",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC2210",
+  "semester": "S22"
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bd8"
+  },
+  "CourseCode": "CSE-3101",
+  "CourseTitle": "Theory of Computation",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC3101",
+  "semester": "S31",
+  "instructor": {
+    "B200305": {
+      "batch": "B200305",
+      "teacher": "66bd70aac003c74f5c27e2a8"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bdc"
+  },
+  "CourseCode": "CSE-3105",
+  "CourseTitle": "Microprocessor and Assembly Language",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC3105",
+  "semester": "S31",
+  "instructor": {
+    "B200305": {
+      "batch": "B200305",
+      "teacher": "66bd70aac003c74f5c27e294"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bde"
+  },
+  "CourseCode": "CSE-3107",
+  "CourseTitle": "Computer Networks",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC3107",
+  "semester": "S31",
+  "instructor": {
+    "B200305": {
+      "batch": "B200305",
+      "teacher": "66bd70aac003c74f5c27e29c"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69be1"
+  },
+  "CourseCode": "CSE-3201",
+  "CourseTitle": "Compiler Design and Construction",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC3201",
+  "semester": "S32"
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69be9"
+  },
+  "CourseCode": "CSEP-3210",
+  "CourseTitle": "Application Design and Development (Project)",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 2,
+  "code": "CC3210",
+  "semester": "S32"
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bef"
+  },
+  "CourseCode": "CSE-4105",
+  "CourseTitle": "Computer Graphics and Animation",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC4105",
+  "semester": "S41",
+  "instructor": {
+    "B190305": {
+      "batch": "B190305",
+      "teacher": "66bd70aac003c74f5c27e2a8"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d650"
+  },
+  "CourseCode": "CSE-1106",
+  "CourseTitle": "Electrical Circuit Analysis",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "semester": "S11",
+  "code": "CC1106",
+  "courseTeacher": "Dr. Uzzal Kumar Acharjee"
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d665"
+  },
+  "CourseCode": "CSEL-2104",
+  "CourseTitle": "Digital Logic Design Lab",
+  "CourseType": "Major",
+  "courseTeacher": "Prof. Dr. Md. Nasir Uddin",
+  "Marks": 50,
+  "Credit": 1,
+  "semester": "S21",
+  "code": "CC2104",
+  "instructor": {
+    "B210305": {
+      "batch": "B210305",
+      "teacher": "66bd70aac003c74f5c27e295"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d64b"
+  },
+  "CourseCode": "CSE-1101",
+  "CourseTitle": "Introduction to Computer",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC1101",
+  "courseTeacher": "Dr. Md. Abu Layek",
+  "semester": "S11"
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d654"
+  },
+  "CourseCode": "CSE-1201",
+  "CourseTitle": "Object Oriented Programming-I",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC1201",
+  "semester": "S12",
+  "courseTeacher": "Dr. Md. Aminul Islam",
+  "instructor": {
+    "B220305": {
+      "batch": "B220305",
+      "teacher": "66bd70aac003c74f5c27e297"
+    },
+    "B210305": {
+      "batch": "B210305",
+      "teacher": "66bd70aac003c74f5c27e29f"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d64c"
+  },
+  "CourseCode": "CSE-1102",
+  "CourseTitle": "Structured Programming Language",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC1102",
+  "semester": "S11",
+  "courseTeacher": "Dr. Md. Zulfiker Mahmud"
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d64e"
+  },
+  "CourseCode": "CSER-1104",
+  "CourseTitle": "Math I (Calculus)",
+  "CourseType": "Non-Major",
+  "Marks": 100,
+  "Credit": 3,
+  "semester": "S11",
+  "code": "CC1104",
+  "courseTeacher": "Md. Asraful Islam"
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d653"
+  },
+  "CourseCode": "CSER-1109",
+  "CourseTitle": "History of the Liberation War of Bangladesh",
+  "CourseType": "Non-Major",
+  "Marks": 50,
+  "Credit": 2,
+  "semester": "S11",
+  "code": "CC1109",
+  "courseTeacher": "Umma Salma Hridoy"
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d657"
+  },
+  "CourseCode": "CSEL-1204",
+  "CourseTitle": "Data structure Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1.5,
+  "code": "CC1204",
+  "semester": "S12",
+  "courseTeacher": "Arnisha Akhter",
+  "instructor": {
+    "B220305": {
+      "batch": "B220305",
+      "teacher": "66bd70aac003c74f5c27e29f"
+    },
+    "B210305": {
+      "batch": "B210305",
+      "teacher": "66bd70aac003c74f5c27e2a8"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d65b"
+  },
+  "CourseCode": "CSE-1208",
+  "CourseTitle": "Discrete Mathematics",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC1208",
+  "semester": "S12",
+  "courseTeacher": "Dr. Selina Sharmin",
+  "instructor": {
+    "B220305": {
+      "batch": "B220305",
+      "teacher": "66bd70aac003c74f5c27e299"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d65e"
+  },
+  "CourseCode": "CSEL-2108",
+  "CourseTitle": "Data Communication Lab",
+  "CourseType": "Major",
+  "courseTeacher": "Nayeema Islam",
+  "Marks": 50,
+  "Credit": 1,
+  "semester": "S21",
+  "code": "CC2108",
+  "instructor": {
+    "B210305": {
+      "batch": "B210305",
+      "teacher": "66bd70aac003c74f5c27e2a1"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d663"
+  },
+  "CourseCode": "CSEL-2102",
+  "CourseTitle": "Object Oriented Programming II Lab",
+  "CourseType": "Major",
+  "courseTeacher": "Tanvir Ahammad",
+  "Marks": 50,
+  "Credit": 1,
+  "semester": "S21",
+  "code": "CC2102",
+  "instructor": {
+    "B210305": {
+      "batch": "B210305",
+      "teacher": "66bd70aac003c74f5c27e2a6"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d664"
+  },
+  "CourseCode": "CSE-2107",
+  "CourseTitle": "Data Communication",
+  "CourseType": "Major",
+  "courseTeacher": "Nayeema Islam",
+  "Marks": 100,
+  "Credit": 3,
+  "semester": "S21",
+  "code": "CC2107",
+  "instructor": {
+    "B210305": {
+      "batch": "B210305",
+      "teacher": "66bd70aac003c74f5c27e2a1"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bce"
+  },
+  "CourseCode": "CSE-2201",
+  "CourseTitle": "Computer Architecture",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC2201",
+  "semester": "S22"
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69be2"
+  },
+  "CourseCode": "CSEL-3202",
+  "CourseTitle": "Compiler Design and Construction Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC3202",
+  "semester": "S32"
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69be4"
+  },
+  "CourseCode": "CSEL-3204",
+  "CourseTitle": "High level Programming Language Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC3204",
+  "semester": "S32"
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69beb"
+  },
+  "CourseCode": "CSE-4101",
+  "CourseTitle": "Artificial Intelligence",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC4101",
+  "semester": "S41",
+  "instructor": {
+    "B190305": {
+      "batch": "B190305",
+      "teacher": "66bd70aac003c74f5c27e2a1"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bd9"
+  },
+  "CourseCode": "CSE-3102",
+  "CourseTitle": "Mathematical Analysis for Computer Science",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC3102",
+  "semester": "S31",
+  "instructor": {
+    "B200305": {
+      "batch": "B200305",
+      "teacher": "66bd70aac003c74f5c27e299"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bda"
+  },
+  "CourseCode": "CSE-3103",
+  "CourseTitle": "Operating Systems",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC3103",
+  "semester": "S31",
+  "instructor": {
+    "B200305": {
+      "batch": "B200305",
+      "teacher": "66bd70aac003c74f5c27e2a6"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69be7"
+  },
+  "CourseCode": "CSE-3208",
+  "CourseTitle": "IoT and Embedded System",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC3208",
+  "semester": "S32"
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bec"
+  },
+  "CourseCode": "CSEL-4102",
+  "CourseTitle": "Artificial Intelligence Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC4102",
+  "semester": "S41",
+  "instructor": {
+    "B190305": {
+      "batch": "B190305",
+      "teacher": "66bd70aac003c74f5c27e2a6"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bee"
+  },
+  "CourseCode": "CSEL-4104",
+  "CourseTitle": "Digital Image Processing Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC4104",
+  "semester": "S41",
+  "instructor": {
+    "B190305": {
+      "batch": "B190305",
+      "teacher": "66bd70aac003c74f5c27e298"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d651"
+  },
+  "CourseCode": "CSEL-1107",
+  "CourseTitle": "Electrical Circuit Analysis Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1.5,
+  "semester": "S11",
+  "code": "CC1107",
+  "courseTeacher": "Tanvir Ahammad"
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d652"
+  },
+  "CourseCode": "CSER-1108",
+  "CourseTitle": "English",
+  "CourseType": "Non-Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC1108",
+  "semester": "S11",
+  "courseTeacher": "Injamamul Sarwer"
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d65d"
+  },
+  "CourseCode": "CSEV-1210",
+  "CourseTitle": "Viva-Voce",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC1212",
+  "semester": "S12",
+  "courseTeacher": "All Faculty Member"
+},
+{
+  "_id": {
+    "$oid": "6634a58a5a3dd1c63764d65f"
+  },
+  "CourseCode": "CSER-2109",
+  "CourseTitle": "Financial and Managerial Accounting",
+  "CourseType": "Non-Major",
+  "courseTeacher": "Dr. Omor Faruk",
+  "Marks": 100,
+  "Credit": 3,
+  "semester": "S21",
+  "code": "CC2109",
+  "instructor": {
+    "B210305": {
+      "batch": "B210305",
+      "teacher": "66c0a2bee73202767fddea9b"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bdb"
+  },
+  "CourseCode": "CSEL-3104",
+  "CourseTitle": "Operating Systems Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC3104",
+  "semester": "S31",
+  "instructor": {
+    "B200305": {
+      "batch": "B200305",
+      "teacher": "66bd70aac003c74f5c27e2a6"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bf1"
+  },
+  "CourseCode": "CSE-4107",
+  "CourseTitle": "Data Mining and Machine Learning",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC4107",
+  "semester": "S41",
+  "instructor": {
+    "B190305": {
+      "batch": "B190305",
+      "teacher": "66bd70aac003c74f5c27e29a"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bf2"
+  },
+  "CourseCode": "CSEL-4108",
+  "CourseTitle": "Data Mining and Machine Learning Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC4108",
+  "semester": "S41",
+  "instructor": {
+    "B190305": {
+      "batch": "B190305",
+      "teacher": "66bd70aac003c74f5c27e29a"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bf3"
+  },
+  "CourseCode": "CSE-4109",
+  "CourseTitle": "Cryptography and Network Security",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC4109",
+  "semester": "S41",
+  "instructor": {
+    "B190305": {
+      "batch": "B190305",
+      "teacher": "66bd70aac003c74f5c27e29f"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66b82537ba1a7b5513b69bf4"
+  },
+  "CourseCode": "CSEL-4110",
+  "CourseTitle": "Cryptography and Network Security Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC4110",
+  "semester": "S41",
+  "instructor": {
+    "B190305": {
+      "batch": "B190305",
+      "teacher": "66bd70aac003c74f5c27e295"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69bfc"
+  },
+  "CourseCode": "CSE-4203",
+  "CourseTitle": "Simulation & Modeling",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC4203",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c01"
+  },
+  "CourseCode": "CSEL-4208",
+  "CourseTitle": "Network Routing and Switching Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC4208",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69bfd"
+  },
+  "CourseCode": "CSEL-4204",
+  "CourseTitle": "Simulation & Modeling Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC4204",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69bfb"
+  },
+  "CourseCode": "CSEP-4201",
+  "CourseTitle": "Project",
+  "CourseType": "Major",
+  "Marks": 200,
+  "Credit": 6,
+  "code": "CC4201",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c00"
+  },
+  "CourseCode": "CSE-4207",
+  "CourseTitle": "Network Routing and Switching",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC4207",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c03"
+  },
+  "CourseCode": "CSEL-4210",
+  "CourseTitle": "System Programming Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC4210",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69bfa"
+  },
+  "CourseCode": "CSET-4201",
+  "CourseTitle": "Thesis",
+  "CourseType": "Major",
+  "Marks": 200,
+  "Credit": 6,
+  "code": "CC4201",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c04"
+  },
+  "CourseCode": "CSE-4211",
+  "CourseTitle": "Distributed Database System",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC4211",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c05"
+  },
+  "CourseCode": "CSEL-4212",
+  "CourseTitle": "Distributed Database System Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC4212",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c06"
+  },
+  "CourseCode": "CSE-4213",
+  "CourseTitle": "Neural Network & Fuzzy System",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC4213",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c1d"
+  },
+  "CourseCode": "CSEL-4236",
+  "CourseTitle": "Blockchain Technology and Application Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC4236",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c02"
+  },
+  "CourseCode": "CSE-4209",
+  "CourseTitle": "System Programming",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC4209",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c08"
+  },
+  "CourseCode": "CSE-4215",
+  "CourseTitle": "Digital System Design",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC4215",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c0f"
+  },
+  "CourseCode": "CSEL-4222",
+  "CourseTitle": "Natural Language Processing Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC4222",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c11"
+  },
+  "CourseCode": "CSEL-4224",
+  "CourseTitle": "System Analysis and Design Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC4224",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c19"
+  },
+  "CourseCode": "CSEL-4232",
+  "CourseTitle": "Network Programming Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC4232",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c1a"
+  },
+  "CourseCode": "CSE-4233",
+  "CourseTitle": "Image and Video Quality Assurance",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC4233",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c1b"
+  },
+  "CourseCode": "CSEL-4234",
+  "CourseTitle": "Image and Video Quality Assurance Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC4234",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c1c"
+  },
+  "CourseCode": "CSE-4235",
+  "CourseTitle": "Blockchain Technology and Application",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC4235",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c18"
+  },
+  "CourseCode": "CSE-4231",
+  "CourseTitle": "Network Programming",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC4231",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69bfe"
+  },
+  "CourseCode": "CSE-4205",
+  "CourseTitle": "Distributed Systems",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC4205",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69bff"
+  },
+  "CourseCode": "CSEL-4206",
+  "CourseTitle": "Distributed Systems Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC4206",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c0a"
+  },
+  "CourseCode": "CSE-4217",
+  "CourseTitle": "Digital Electronics and pulse techniques",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC4217",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c14"
+  },
+  "CourseCode": "CSE-4227",
+  "CourseTitle": "Pattern Recognition",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC4227",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c0c"
+  },
+  "CourseCode": "CSE-4219",
+  "CourseTitle": "Digital Forensics and Investigation",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC4219",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c10"
+  },
+  "CourseCode": "CSE-4223",
+  "CourseTitle": "System Analysis and Design",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC4223",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c13"
+  },
+  "CourseCode": "CSEL-4226",
+  "CourseTitle": "VLSI Design Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC4226",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c15"
+  },
+  "CourseCode": "CSEL-4228",
+  "CourseTitle": "Pattern Recognition Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC4228",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c09"
+  },
+  "CourseCode": "CSEL-4216",
+  "CourseTitle": "Digital System Design Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC4216",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c0b"
+  },
+  "CourseCode": "CSEL-4218",
+  "CourseTitle": "Digital Electronics and pulse techniques Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC4218",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c0e"
+  },
+  "CourseCode": "CSE-4221",
+  "CourseTitle": "Natural Language Processing",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC4221",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c12"
+  },
+  "CourseCode": "CSE-4225",
+  "CourseTitle": "VLSI Design",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC4225",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c16"
+  },
+  "CourseCode": "CSE-4229",
+  "CourseTitle": "Cloud Computing",
+  "CourseType": "Major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC4229",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c07"
+  },
+  "CourseCode": "CSEL-4214",
+  "CourseTitle": "Neural Network & Fuzzy System Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC4214",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c0d"
+  },
+  "CourseCode": "CSEL-4220",
+  "CourseTitle": "Digital Forensics and Investigation Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC4220",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66b82fa3ba1a7b5513b69c17"
+  },
+  "CourseCode": "CSEL-4230",
+  "CourseTitle": "Cloud Computing Lab",
+  "CourseType": "Major",
+  "Marks": 50,
+  "Credit": 1,
+  "code": "CC4230",
+  "semester": "S42"
+},
+{
+  "_id": {
+    "$oid": "66bf1b6032315098706ea0cd"
+  },
+  "CourseCode": "C2512",
+  "CourseTitle": "jani na",
+  "CourseType": "major",
+  "Marks": 100,
+  "Credit": 3,
+  "code": "CC2412",
+  "semester": "S00",
+  "instructor": {
+    "B210305": {
+      "batch": "B210305",
+      "teacher": {
+        "$oid": "66bd70aac003c74f5c27e294"
+      }
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bf218789c650c8121e61ff"
+  },
+  "CourseCode": "CSER-1210",
+  "CourseTitle": "History of the Liberation War of Bangladesh",
+  "CourseType": "Non-Major",
+  "Marks": 50,
+  "Credit": 2,
+  "semester": "S12",
+  "code": "CC1210",
+  "instructor": {
+    "B220305": {
+      "batch": "B220305",
+      "teacher": "66c0b083e73202767fddea9d"
+    }
+  }
+}]

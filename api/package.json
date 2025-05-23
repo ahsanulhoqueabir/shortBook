@@ -1,0 +1,26 @@
+{
+  "name": "server-template",
+  "version": "0.0.1",
+  "description": "This is a basic template server side code using node.js and express.js. It also uses mongodb as database and jwt for authentication. It also uses cors for cross origin request.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ahanul Hoque",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.4.0",
+    "netlify-cli": "^17.23.8",
+    "netlify-lambda": "^0.4.0",
+    "serverless-http": "^3.2.0",
+    "ws": "^8.17.1"
+  }
+}

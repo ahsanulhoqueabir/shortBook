@@ -1,0 +1,52 @@
+[
+  {
+    "id": "682f90419cd8cfe2dff191e9",
+    "CourseTitle": "Design and Analysis of Algorithm Lab",
+    "CourseCode": "CSEL-2209"
+  },
+  {
+    "id": "682f90419cd8cfe2dff191ee",
+    "CourseTitle": "Math-IV",
+    "CourseCode": "CSER-2205"
+  },
+  {
+    "id": "682f90419cd8cfe2dff191ef",
+    "CourseTitle": "Design and Analysis of Algorithm",
+    "CourseCode": "CSE-2208"
+  },
+  {
+    "id": "682f90419cd8cfe2dff191f7",
+    "CourseTitle": "Computer Architecture Lab",
+    "CourseCode": "CSE-2202"
+  },
+  {
+    "id": "682f90419cd8cfe2dff191f8",
+    "CourseTitle": "Numerical Analysis",
+    "CourseCode": "CSER-2206"
+  },
+  {
+    "id": "682f90419cd8cfe2dff191f9",
+    "CourseTitle": "Numerical Analysis Lab ",
+    "CourseCode": "CSEL-2207"
+  },
+  {
+    "id": "682f90419cd8cfe2dff191ff",
+    "CourseTitle": "Database Management System",
+    "CourseCode": "CSE-2203"
+  },
+  {
+    "id": "682f90419cd8cfe2dff19200",
+    "CourseTitle": "Database Management System Lab",
+    "CourseCode": "CSEL-2204"
+  },
+  {
+    "id": "682f90419cd8cfe2dff19201",
+    "CourseTitle": "Viva-Voce",
+    "CourseCode": "CSEV-2210"
+  },
+  {
+    "id": "682f90419cd8cfe2dff19214",
+    "CourseTitle": "Computer Architecture",
+    "CourseCode": "CSE-2201"
+  }
+]
