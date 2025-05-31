@@ -24,6 +24,7 @@ import { useState } from "react";
 import { toast } from "sonner";
 import { addDoc, collection } from "firebase/firestore";
 import { db } from "../../firebase/firebase.config";
+import { Boxes } from "lucide-react";
 
 const Navbar = () => {
   const [course, setCourse] = useState<string>("");
@@ -65,7 +66,11 @@ const Navbar = () => {
         <img src={logo} alt="Logo" className="w-10 h-10 rounded-full mr-2" />
         <span className="hidden md:inline">ShortBook</span>
       </Link>
-      <div className="">
+      <div className="flex items-center gap-8">
+        <Link to={"/grouped-notes"} className="">
+          <Boxes />
+        </Link>
+
         <Dialog open={open} onOpenChange={setOpen}>
           <DialogTrigger asChild>
             <Button variant="outline">New Post</Button>
