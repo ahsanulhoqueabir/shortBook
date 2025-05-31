@@ -50,6 +50,7 @@ const Navbar = () => {
         setLoading(false);
         setOpen(false);
         toast.success("Post created successfully");
+        window.location.reload();
       })
       .catch(() => {
         setLoading(false);
