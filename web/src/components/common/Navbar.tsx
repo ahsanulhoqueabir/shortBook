@@ -40,7 +40,8 @@ const Navbar = () => {
     const data = {
       courseID: course,
       description: description,
-      semester: "S22",
+      semester:
+        course === "Introduction to Statistic and Probability" ? "S21" : "S22",
       createdAt: new Date(),
     };
     setLoading(true);

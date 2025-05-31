@@ -20,6 +20,11 @@
     "CourseCode": "CSE-2202"
   },
   {
+    "id": "682f90419cd8cfe2dff191ed",
+    "CourseTitle": "Introduction to Statistic and Probability",
+    "CourseCode": "CSE-2106"
+  },
+  {
     "id": "682f90419cd8cfe2dff191f8",
     "CourseTitle": "Numerical Analysis",
     "CourseCode": "CSER-2206"
